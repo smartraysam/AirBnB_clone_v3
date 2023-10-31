@@ -137,3 +137,4 @@ class TestFileStorage(unittest.TestCase):
         storage.save()
         c = storage.count()
         self.assertEqual(len(storage.all()), c)
+        

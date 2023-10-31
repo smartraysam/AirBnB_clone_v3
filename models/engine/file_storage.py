@@ -86,3 +86,4 @@ class FileStorage:
         if cls in classes.values():
             resource = self.all(cls)
         return len(resource)
+    
